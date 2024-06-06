@@ -1,0 +1,50 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    background-color: aqua;
+}
+
+
+body{
+    font-family: 'Roboto',sans-serif;
+    font-size:20px;
+    height:1000px;
+    width: 600px;
+    background-color:white;
+    margin:0 auto
+    
+}
+h1{
+    font-size: 33px;
+    color:brown;
+    padding:10px;
+    border-bottom: 1px solid #afafaf
+}
+table{
+    width:100%;
+    margin-top: 20px;
+    border:1px solid grey;
+    padding:10px;
+}
+table td{
+    border:1px solid rgb(111, 116, 111);
+}
+table tbody td{
+    padding:5px;
+}
+table thead td{
+    padding:5px;
+    color:black;
+    background-color: rgb(20, 141, 181);
+    font-weight:bold;
+}
+table tbody tr:nth-child(even){
+    background-color: rgb(83, 190, 236);
+}
